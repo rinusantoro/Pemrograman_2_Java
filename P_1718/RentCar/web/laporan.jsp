@@ -74,6 +74,7 @@ try{
     <a href="sewa.jsp">Penyewaan</a>
     <a href="kembali.jsp">Pengembalian</a>
     <a href="laporan.jsp">Laporan</a>
+    <a href="logout.jsp">Logout</a>
 
 </div>
 

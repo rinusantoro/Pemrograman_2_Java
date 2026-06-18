@@ -1,3 +1,9 @@
+<%
+if(session.getAttribute("user") == null){
+    response.sendRedirect("login.jsp");
+}
+%>
+
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
 <%@page import="java.sql.*"%>
@@ -75,6 +81,7 @@ try{
     <a href="sewa.jsp">Penyewaan</a>
     <a href="kembali.jsp">Pengembalian</a>
     <a href="laporan.jsp">Laporan</a>
+    <a href="logout.jsp">Logout</a>
 
 </div>
 
